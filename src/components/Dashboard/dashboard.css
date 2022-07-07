@@ -1,0 +1,414 @@
+.logo_head {
+  width: 25%;
+}
+.bg {
+  background: #ffffff;
+}
+
+.dashboard {
+  width: 100%;
+  height: 100%;
+  background: #e8eeef;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+.first_navigation {
+  font-family: "IM FELL Double Pica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 43px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #6e3e41;
+}
+
+.second_navigation {
+  display: flex;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* color: #ea6872; */
+}
+
+.second_navigation > ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.second_navigation > ul > li {
+  margin-left: 4rem;
+}
+
+.second_navigation > ul > li:first-child {
+  color: #ea6872;
+}
+
+.line {
+  width: 72%;
+  height: 1px;
+  background-color: #000000;
+  margin: 0 auto;
+}
+
+/* category navigation */
+
+.category_nav {
+  display: flex;
+  width: 72%;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.category_nav > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 31%;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 2px;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #6e3e41;
+}
+
+/* fitler section */
+.filter {
+  width: 72%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.filter > .fil {
+  margin-left: 2rem;
+}
+.filter > .total_order {
+  margin-right: 2rem;
+}
+
+.div_item {
+  width: 72%;
+  height: 180px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.1);
+}
+
+.div_item:last-child {
+  margin-bottom: 20px;
+}
+
+.first_prod {
+  width: 25%;
+  height: inherit;
+  /* background-color: aqua; */
+}
+.first_prod > img {
+  width: 150px;
+  height: 170px;
+  margin-left: 60px;
+  padding: 10px;
+}
+
+.second_prod {
+  text-align: center;
+
+  width: 25%;
+  height: inherit;
+  /* background-color: pink; */
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #292929;
+}
+
+.second_prod > p {
+  margin-top: 20px;
+}
+
+.third_prod {
+  width: 25%;
+  text-align: center;
+  height: inherit;
+  /* background-color: yellow; */
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ea6872;
+}
+.third_prod > p {
+  margin-top: 20px;
+}
+
+.third_prod > button {
+  width: 106px;
+  height: 30px;
+  background: #ea6872;
+  border: 0.5px solid #ea6872;
+  border-radius: 2px;
+  margin: 10px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.fourth_prod {
+  text-align: center;
+  width: 25%;
+  height: inherit;
+  /* background-color: gray; */
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #04a9c7;
+}
+
+.fourth_prod > p {
+  margin-top: 20px;
+}
+
+.fourth_prod > p > a {
+  text-decoration: none;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #04a9c7;
+}
+
+.more {
+  text-align: center;
+}
+
+.ready {
+  margin-left: 10px;
+}
+
+.check_prod {
+  margin-top: 40px;
+  text-align: center;
+  color: #ea6872;
+}
+
+.check_prod > .input {
+  width: 40px;
+}
+
+.reject > p {
+  margin-top: 40px;
+}
+
+.category_nav > div > a {
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+}
+
+.category_nav > div > a.active {
+  color: #ea6872 !important;
+}
+
+.second_navigation > ul > li > a.active {
+  color: #ea6872;
+}
+
+.second_navigation > ul > li > a {
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+}
+
+.btn_pink {
+  color: #ea6872;
+  border: none;
+  background: #e8eeef;
+}
+
+.drop_width {
+  width: 292px;
+}
+.order_det {
+  background: #e8eeef;
+  width: 100%;
+  height: 100vh;
+}
+
+.card_main {
+  width: 72%;
+  height: 24rem;
+  border: 1px solid #ea6872;
+  border-radius: 2px;
+  margin: 0 auto;
+  margin-top: 4rem;
+
+  box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.1);
+}
+.headline {
+  margin-left: 13.5rem;
+  margin-top: 0.4rem;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.reject > a > p {
+  margin-top: 4rem;
+}
+
+.headline > .order_det {
+  color: #ea6872;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.headline > span > a {
+  text-decoration: none;
+}
+
+.f1 {
+  width: 33%;
+  height: 20rem;
+  /* background-color: rebeccapurple; */
+}
+
+.f2 {
+  width: 33%;
+  height: 20rem;
+  margin-left: 1rem;
+}
+
+.f3 {
+  width: 33%;
+  height: 20rem;
+  margin-left: 1rem;
+}
+
+.cont_f {
+  display: flex;
+  padding: 2rem;
+}
+
+.im > img {
+  width: 8rem;
+
+  margin-left: 5rem;
+}
+
+.f2 > p {
+  margin-left: 1rem;
+}
+
+.btn_date {
+  margin-left: 2rem;
+}
+
+.btn_date > p {
+  margin: 10px;
+  margin-left: 4rem;
+  color: #ea6872;
+}
+
+.btn_date > button {
+  background: #ea6872;
+  border: 0.5px solid #ea6872;
+  border-radius: 2px;
+  width: 106.3px;
+  height: 30px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.comm {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.f3 > p {
+  margin-left: 5rem;
+}
+
+.btn_impo {
+  background-color: none;
+}
+
+.btn_impo:hover {
+  background-color: #ea6872;
+  color: #ffffff;
+}
+
+.btn_impo:focus {
+  background-color: #ea6872;
+  color: #ffffff;
+}
+
+.chk {
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 19px;
+
+  color: #4e4e4e;
+}
+
+.check_prod > .bl {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #04a9c7 !important;
+}

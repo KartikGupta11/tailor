@@ -1,0 +1,102 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+}
+
+.card_det {
+  width: 50%;
+  height: 420px;
+  align-items: center;
+  box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 40%;
+  margin-top: 4%;
+  margin-left: 28%;
+  margin-bottom: 2%;
+}
+
+.card-title {
+  font-family: "IM FELL Double Pica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #292929;
+  margin-bottom: 4%;
+}
+
+.inp {
+  display: flex;
+  width: 60%;
+  height: 35px;
+  margin: 0px auto;
+  background: #f3f3f3;
+}
+.second > input {
+  width: 18rem;
+  border: none;
+  margin-top: 1.5%;
+  background-color: #f3f3f3;
+  outline: none;
+}
+
+.country_num {
+  /* width: 10%; */
+  border: none;
+  margin-top: 4.5%;
+  background-color: #f3f3f3;
+}
+
+.btn_getotp {
+  margin-left: 40%;
+  width: 7rem;
+  height: 2.5rem;
+  background: #ea6872;
+  color: #ffffff;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  outline: none;
+  border: none;
+}
+
+.btn_getotp:hover {
+  transform: scale(1.1);
+}
+
+.infor {
+  display: flex;
+}
+
+.infor > p:nth-child(1) {
+  margin-left: 8.5rem;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #9c9999;
+}
+.infor > p:nth-child(2) {
+  margin-left: 10.5rem;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #ea6872;
+}
+
+.infor > p {
+  margin-top: 5px;
+}

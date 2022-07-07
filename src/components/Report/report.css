@@ -1,0 +1,42 @@
+.dashboard2 {
+  width: 100%;
+  height: 100vh;
+  background: #e8eeef;
+}
+
+.date_rep {
+  margin-left: 165px;
+}
+
+.date_rep3 {
+  margin-left: 180px;
+}
+.date_rep2 {
+  margin-left: 175px;
+}
+
+.bt_imp {
+  width: 16rem;
+}
+
+.drop_width_imp {
+  width: 390px;
+  position: absolute;
+  inset: auto auto 0px 0px;
+  margin: 0px;
+  transform: translate3d(0px, -37.6px, 0px);
+}
+
+.btn_impo {
+  background-color: none;
+}
+
+.btn_impo:hover {
+  background-color: #ea6872;
+  color: #ffffff;
+}
+
+.btn_impo:focus {
+  background-color: #ea6872;
+  color: #ffffff;
+}

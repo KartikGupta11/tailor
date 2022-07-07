@@ -1,0 +1,35 @@
+.bxe {
+  width: 520px;
+  height: 320px;
+  padding: 15px;
+  margin-left: 13rem;
+  margin-top: 2.5rem;
+  background: #ffffff;
+}
+
+/* .dashboard2 {
+  width: 100%;
+  min-height: 100vh;
+  background: #e8eeef;
+} */
+
+.disp {
+  display: grid;
+  grid-template-columns: repeat(2, 530px);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 20px;
+}
+
+.head {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #525252;
+}
